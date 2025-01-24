@@ -21,11 +21,26 @@ This prototype is a cryptocurrency trading automation system.
  - 매매기록 서식 만들고 자동화하기
 
 ### Dev
-개인 컴퓨터에서 개발 환경 들어가는 법
+개인 컴퓨터에서 clone 후, 개발 환경 들어가서 pytest, jupyterlab 실행하는 법
 ```bash
 $ git clone ...
 $ pdm venv create
 $ source .venv/bin/activate
 $ pdm install
-$ pytest
+$ pdm add -dG note jupyterlab
+$ pdm add -dG test pytest
+$ pytes
+$ jupyter lab
+```
+
+코드 수정후 커밋 및 퍼블리시 
+```bash
+$ git add .
+$ git commit -a
+$ git publish
+$ git push
+$ merg / release
+
+View at:
+https://pypi.org/project/Coin-proto/
 ```
