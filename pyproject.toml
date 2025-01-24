@@ -1,6 +1,6 @@
 [project]
 name = "Coin-proto"
-version = "0.2.0"
+version = "0.3.0"
 description = "This prototype is a cryptocurrency trading automation system."
 authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
@@ -20,3 +20,11 @@ distribution = true
 
 [project.scripts]
 coin-proto = "coin_proto.where_now:entry_point"
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+]
+note = [
+    "jupyterlab>=4.3.4",
+]
