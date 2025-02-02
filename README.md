@@ -17,7 +17,7 @@ This prototype is a cryptocurrency trading automation system.
  - 타인의 기록들
  - 논문 검색
 
-4.  매매기록 남기기
+ 4.  매매기록 남기기
  - 매매기록 서식 만들고 자동화하기
 
 ### Dev
@@ -44,3 +44,9 @@ $ merg / release
 View at:
 https://pypi.org/project/Coin-proto/
 ```
+# 진행 상황
+1. upbit open ai 발급 
+2. pip install pyupbit
+3. jupyter lab 통해 /로그인하기 /pyupbit 작동 테스트 하기 /  잔고 확인 / 5분동 불러오기
+4. 추가적으로 매도, 매수 함수 작성 및 dotenv로 key 보안 높이기 예정  
+

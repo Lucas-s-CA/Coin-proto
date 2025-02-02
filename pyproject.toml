@@ -1,6 +1,6 @@
 [project]
 name = "Coin-proto"
-version = "0.3.0"
+version = "0.4.0"
 description = "This prototype is a cryptocurrency trading automation system."
 authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
