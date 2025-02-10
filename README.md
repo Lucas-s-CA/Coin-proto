@@ -52,4 +52,12 @@ https://pypi.org/project/Coin-proto/
 5. dotenv로 key 보안 높이기 예정 -> x
 6. 매매전략 볼린져밴드 전략을 통해 매수,매도 전략 구성 -> x
   
-
+def get_balance(ticker):
+      balances = upbit.get_balances()
+      for b in balances:
+          if b['currency'] == ticker:
+              if b['balance'] is not None:
+                  return float(b['balance'])
+              else:
+                  return 0
+print(get_balance('KRW'))

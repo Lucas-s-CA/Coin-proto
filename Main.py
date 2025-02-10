@@ -2,8 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Main",page_icon="₿",)
 
-st.write("#  Upbit 자동매매 프로그램👋")
-
+st.image("https://wimg.heraldcorp.com/content/default/2024/05/09/20240509050030_0.jpg")
+st.write("#  Upbit 자동매매 프로그램")
 st.markdown(
     """
       Bitcoin 2025년에 2억 갈까? 📈💰📊
