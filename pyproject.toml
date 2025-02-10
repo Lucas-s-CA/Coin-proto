@@ -5,7 +5,7 @@ description = "This prototype is a cryptocurrency trading automation system."
 authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
 ]
-dependencies = ["typer>=0.15.1"]
+dependencies = ["typer>=0.15.1", "pyupbit>=0.2.34", "python-dotenv>=1.0.1", "streamlit>=1.42.0", "psycopg[binary,pool]>=3.2.4"]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
