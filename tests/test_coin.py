@@ -1,5 +1,5 @@
-from coin_proto.where_now import add
+from coin_proto.where_now import tickers
 
-def test_add():
-    r = add(1, 10)
-    assert r == 11
+def test_tickers():
+    t = print(tickers)
+    assert t == 'KRW-BTC'
